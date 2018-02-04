@@ -1,0 +1,170 @@
+#gg-body {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/raleway_thin-webfont.woff")
+}
+
+#gg-face {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: darkslategrey;
+    padding: 150px;
+    background-image: url("../img/bg1.jpg");
+    font-family: Raleway, helvetica, arial;
+    text-shadow: 2px 2px darkgray;
+    font-size: 120px; 
+    text-align: center;
+}
+
+#gg-face2 {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: azure;
+    padding: 150px;
+    background-image: url("../img/bg2.jpg");
+    font-family: Raleway, helvetica, arial;
+    text-shadow: 2px 2px darkseagreen;
+    font-size: 120px; 
+    text-align: center;
+}
+
+#gg-menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+    font-family: Arial;
+}
+
+#gg-menu li a {
+    float: left;
+    text-decoration: none;
+    padding: 16px 24px;
+    color: white;
+}
+
+#gg-menu li a:hover {
+    color: black;
+    background-color: azure;
+}
+
+#gg-footer {
+    margin: 0px;
+    padding: 1px;
+    background-color: darkslategray;
+    font-family: helvetica, arial;
+    color: white;
+    text-indent: 15px;
+    object-position: bottom;
+}
+
+#gg-good-barangay {
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#gg-good-barangay h2 {
+    padding: 0px;
+    color: darkslategray;
+    font-family: Raleway, helvetica, arial;
+    font-size: 250%;
+}
+
+#gg-good-barangay p {
+    color: #63646d;
+    font-family: arial;
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+#gg-content {
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.gg-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gg-characteristics {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.gg-characteristics h3 {
+    padding: 0px;
+    color: darkslategray;
+    font-family: Raleway, helvetica, arial;
+    font-size: 200%;
+}
+
+.gg-characteristics p {
+    /*color: #63646d;*/
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    text-indent: 20px;
+    margin: 20px;
+}
+
+.gg-container {
+    position: relative;
+    width: 100%;
+}
+
+.gg-topic-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gg-overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: darkslategray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+
+.gg-container:hover .gg-overlay {
+    bottom:0;
+    height: 100%;
+}
+
+.gg-details {
+    position: absolute;
+    overflow: hidden;
+}
+
+#gg-fort {
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
