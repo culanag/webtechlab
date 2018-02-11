@@ -1,191 +1,356 @@
-body {
-    margin:0;
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/raleway_thin-webfont.woff")
 }
-  a {text-decoration:none;}
-  p {padding-left:10px;}
-  #inclusioncon {
+#about{
+    font-family: Raleway, helvetica, arial, sans-serif;
+    font-size: 1.4em;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+#about ul{
+    margin-left: 50px;
+}
+#gg-body {
+    margin: 0px;
+    padding: 0px;
+	position: absolute;
+}
+#gg-body header{
+    position: relative;
+}
+#gg-content{
+    display: block;
+    background-color: white;
+    width: 100%;
+	color: inherit;
+}
+#gg-face{
+    margin: 0px;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: auto;
+    color: darkslategrey;
+    padding: 50px;
+    font-family: Raleway, helvetica, arial, sans-serif;
+    text-shadow: 2px 2px darkgray;
+    font-size: 5em;
+    text-align: center;
+}
+#gg-face2{
+    margin: 0px;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: auto;
+    color: darkslategrey;
+    padding-top: 40px;
+    font-family: Raleway, helvetica, arial, sans-serif;
+    text-shadow: 2px 2px darkgray;
+    font-size: 3em;
+    text-align: center;
+}
+#gg-footer{
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+    padding: 1px;
+    background-color: darkslategray;
+    font-family: Raleway, helvetica, arial, sans-serif;
+    color: white;
+    text-align: center;
+    object-position: bottom;
+}
+#gg-fort{
+    display: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#gg-menu {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+#gg-menu nav{
+    width: 100%;
+}
+#gg-menu ul{
+    font-family: Raleway, helvetica, arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    background-color: darkslateblue;
+	color: inherit;
+}
+#gg-menu li{
+    float: left;
+}
+#gg-menu li a{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+	background-color: inherit;
+}
+#gg-menu li a:hover{
+    background-color: mediumslateblue;
+	color: inherit;
+}
+#gg-menu li a:active{
+    background-color: #cccccc;
+    color: white;
+}
+.gg-characteristics{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.gg-characteristics h3{
+    font-family: Raleway, helvetica, arial, sans-serif;
+    font-size: 1.4em;
+    padding: 15px;
+}
+.gg-container{
+    display: inline-block;
+    width: 100%;
+}
+.gg-details{
+    font-family: Arial, sans-serif;
+}
+.gg-good-barangay{
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.gg-good-barangay h2{
+    font-family: Raleway, helvetica, arial, sans-serif;
+    text-align: justify;
+}
+.gg-overlay{
+    position: relative;
+    width: 69%;
+    float: right;
+}
+.gg-overlay p{
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+.gg-row{
+    background-color: #eeeeee;
+	color: inherit;
+}
+.gg-topic-image{
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    width: 30%;
+    padding-right: 1%;
+    height: auto;
+    border-radius: 0 0 0 5px;
+}
+a {
+	text-decoration: none;
+}
+p {
+	padding-left:10px;
+}
+#inclusioncon {
   	width:100%; 
   	margin-left:auto; 
   	margin-right:auto;
-  }
-  #inclusionheader {
+	color: inherit;
+	background-color: inherit;
+}
+#inclusionheader {
   	background-color:#333;
-  }
-  #inclusionheader h1 {
+	color: inherit;
+}
+#inclusionheader h1 {
   	color:white; 
   	line-height:80px;
-  	font-family: verdana;
-  }
-  #inclusionheader img {
+  	font-family: verdana, sans-serif;
+	background-color: inherit;
+}
+#inclusionheader img {
   	float:left; 
   	height:70px; 
   	width:300px; 
   	padding:5px; 
   	margin-right:20px
-  }
-  #inclusioncontent {
+}
+#inclusioncontent {
   	margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
-  	}
-
-  #inclusionfooter {
+}
+#inclusionfooter {
   	clear:left; 
-  	background-color:white;
-  }
-
-  .inclusion-column {
+}
+.inclusion-column {
     float: left;
     width: 30%;
     padding: 15px;
-}
-.inclusion-column {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;   
+    font-family: arial, sans-serif;
     font-size: 18px;
 }
 .inclusion-column h2{
-    text-shadow: 2px 2px Black;
+    font-family: Tahoma, sans-serif;
+    color: #17202A;
+    text-shadow: 2px 2px White;
+	background-color: inherit;
 }
 #inclusion-nav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+    overflow: hidden;
+    background-color: #17202A;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+	color: inherit;
 }
-
 #inclusion-nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	background-color: inherit;
 }
-
 #inclusion-nav a:hover {
-  background: #ddd;
-  color: black;
+    background: #ddd;
+    color: black;
 }
-
-/* Clear floats after the columns */
 #inclusion-row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width:600px) {
     .inclusion-column {
-        width: 100%;
     }
 }
-
 #inclusionboxes{
-  margin-top:30px;
+    margin-top:30px;
 }
-
 #inclusionboxes #inclusionbox{
-  float:left;
-  text-align: center;
-  width:30%;
-  padding:10px;
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
 }
-
 #inclusionboxes #inclusionbox img{
-  width:10%;
+    width:10%;
 }
-
-#inclusioncontainer{
-  width:100%;
-  margin:auto;
-  overflow:hidden;
+#inclusioncontain{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
 }
-
 #inclusionstory img{
-	position: center;
+	align-content: center;
 }
 
-#inclusionsto{
-	text-align: right;
-  	font-family: Verdana;
-  	font-size: 15;
+#inclusionst{
+	text-align: center;
+  	font-family: Tahoma, sans-serif;
+  	font-size: 15px;
 }
 #inclusionmenu {
     text-align: center;
-    background-color: White;
-    }
-
-
+    background-color: #17202A;
+	color: inherit;
+}
 .inclusionfader {
-    /* Giving equal sizes to each element */
-    width:    300px;
+    width:    375px;
     height:   375px;
     background-color: Black;
-
-    /* Positioning elements in lines */
     display:  inline-block;
-
-    /* This is necessary for position:absolute to work as desired */
-    position: center;
-
-    /* Preventing zoomed images to grow outside their elements */
-    overflow: hidden; }
-
-
-    .inclusionfader img {
-        /* Stretching the images to fill whole elements */
-        width:       100%;
-        height:      100%;
-
-        /* Preventing blank space below the image */
-        line-height: 0;
-
-        /* A one-second transition was to disturbing for me */
-        -webkit-transition: all 0.3s ease;
-        -moz-transition:    all 0.3s ease;
-        -o-transition:      all 0.3s ease;
-        -ms-transition:     all 0.3s ease;
-        transition:         all 0.3s ease; }
-        .inclusionfader img:hover {
-            /* Making images appear bigger and transparent on mouseover */
-            opacity: 0.5;
-            width:   120%;
-            height:  120%; }
+    text-align: center;
+    overflow: hidden; 
+	color: inherit;
+}
+.inclusionfader img {
+    width:       100%;
+    height:      100%;
+    line-height: 0;
+	transition:  all 0.3s ease; 
+}
+.inclusionfader img:hover {
+    opacity: 0.5;
+    width:   120%;
+    height:  120%; 
+}
+.inclusion{
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 20%;      
+}
+.inclusion h2 {
+    padding: 0px;
+    color: #17202A  ;
+    font-family: Tahoma, sans-serif;
+    font-size: 300%;
+    text-shadow: 2px 2px 5px #FFFFFF;
+	background-color: inherit;
+}
+.inclusion p {
+    color: Black;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-indent: 50px;
+	background-color: inherit;
+}
 #inclusion{
     margin-top: 50px;
     margin-left: 15%;
-    margin-right: 20%;
-    
+    margin-right: 20%;    
 }
 #inclusion h2 {
     padding: 0px;
-    color: Black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 300%;
-    text-shadow: 2px 2px 5px #283747  ;
+    color: #17202A  ;
+    font-family: Tahoma, sans-serif;
+    font-size:500%;
+    text-shadow: 2px 2px 5px  #FFFFFF;
+	background-color: inherit;
 }
-
 #inclusion p {
     color: Black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
     text-indent: 50px;
+	background-color: inherit;
 }
 #inclusionview img { 	
 	transition: all 0.2s ease-in;
-	width: 25%;
+	width: 30%;
 }
 #inclusionviewmask { 
 	background-color: rgba(115,146,184, 0.7); 
 	width: 100%;
-   	 padding: 60px;
+   	padding: 60px;
 	height: 50%;
 	opacity: 0;
 	transform: translate(265px, 145px) rotate(45deg);
 	transition: all 0.2s ease-in-out;
+	color: inherit;
 }
 #inclusionview h2 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -193,10 +358,15 @@ body {
     margin: 20px 40px 0px 40px;
     transform: translate(200px, -200px);
 	transition: all 0.2s ease-in-out;
+    font-family: Tahoma, sans-serif;
+    font-size: 45px;
+    color: #17202A;
 }
 #inclusionview p { 
 	transform: translate(-200px, 200px);
 	transition: all 0.2s ease-in-out;
+    font-family: arial, sans-serif;
+    font-size: 18px;
 }
 #inclusionview a.info { 
     transform: translate(0px, 100px);
@@ -218,63 +388,6 @@ body {
 	transform: translate(0px,0px); 
 	transition-delay: 0.5s;
 }
-.view {
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    float: left;
-    border: 10px solid #fff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    background: black;
-}
-.view .mask, .view .content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
-}
-.view img {
-    display: block;
-    position: relative
-}
-.view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: Black);
-    margin: 20px 0 0 0
-}
-.view p {
-    font-family: Georgia, serif;
-    font-style: bold;
-    font-size: 15px;
-    position: relative;
-    color: White;
-    padding: 10px 20px 20px;
-    text-align: center
-}
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: Black;
-    color: black;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-}
-.view a.info:hover {
-    box-shadow: 0 0 5px #000
-}
-
 #inclusioninput[type=text], select, textarea{
     width: 100%;
     padding: 12px;
@@ -283,7 +396,6 @@ body {
     box-sizing: border-box;
     resize: vertical;
 }
-
 #inclusionlabel {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -298,37 +410,340 @@ body {
     cursor: pointer;
     float: right;
 }
-
 #inclusioninput[type=submit]:hover {
     background-color: #45a049;
+	color: inherit;
 }
-
-.#inclusionontain {
+#inclusioncontain {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+	color: inherit;
 }
-
-#inclusioncol-25 {
+.inclusioncol-25 {
     float: left;
-    width: 25%;
+    width: 50%;
     margin-top: 6px;
 }
-
-#inclusioncol-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+.inclusioncol-75 {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+	background-color: inherit;
+	color: inherit;
 }
-
-/* Clear floats after the columns */
-#inclusionrows:after {
+.inclusionrows:after {
     content: "";
     display: table;
     clear: both;
 }
-
 #inclusionst h1{
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
+    color: #17202A;
+	background-color: inherit;
 }
+.awwhole{
+    box-sizing: border-box;	
+}
+#awnavbar {   
+    background-color: #3c3c3c;
+	color:white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left:0px;
+}
+header {	
+	padding-top:25px;
+}
+header h2{	
+	padding-top:25px;
+	padding-left:25px;
+	left: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 40px;	
+}
+#awnavbar a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+	background-color:#3c3c3c;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;	
+}
+#awnavbar a:hover {
+    background-color: #ddd;
+    color: black;
+	font-size: 18px;
+}
+a[href*="about"] {
+	float: right !important;
+}
+.awbox{
+	 background-color: white;
+	 color:black;
+     padding: 20px;
+     margin-top: 20px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+.awleft{
+	float: left;
+    width: 59%;	
+}
+.awright{
+	float: right;
+    width: 40%;	
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+    padding-left:20px;
+	padding-right: 8px;
+    background-color: #f1f1f1;
+	color:black;
+	overflow-x: hidden;
+}
+#aw2p1{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;	
+}
+#aw1h, #aw2h, #aw3h, #aw4h, #aw5h, #aw6h{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 30px;
+		
+}
+#aw1p, #aw2p2, #aw3p, #aw4p, #aw5p, #aw6p, #aw7p{
+	  text-align: justify;
+	  text-indent: 50px;
+	  font-size: 20px;
+	  letter-spacing: 0.5px;
+	  line-height: 1.5;
 
+	
+}
+#aw18, #aw2, #aw16, #aw24, #aw8, #aw23{
+	width: 100%;
+}
+#awfooter{
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top:15px;
+	background-color: Grey;
+	color:black;
+}
+#aw6, #aw9, #aw10, #aw13, #aw14,  
+ #gutterdog, #bushcat, #bushdog, #chickencoop,
+ #awtreehouses, #aw21, #aw22, #aw25, #gatedog, 
+ #awhouseshouses, #aw19,#aw20{
+	column-count: 2;
+	width:49.5%;
+	border-radius: 3px;	
+ }
+#awlogoheader, #awlogofooter, #awslideshow, #awpinkhouses, 
+ #aw1, #aw12, #aw3, #aw5, #aw4, #aw7, #aw15, #aw17, 
+ #hatdog, #tonguedog, #awcarhouses, #tabledog{
+	position: absolute;
+	height: 0px;
+	width: 0px;
+}
+#aw11, #paperdog {
+	height:10%;
+	width:99%;
+	border-radius: 3px;
+}
+#awissuescontent{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+	 color:black;
+}
+#awissuescontent h1{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+}
+#awissuescontent h2,h5,h6,h3,h4{
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#straydef, #awstrdoggy, #awstrkitty, #cruddef, #awissuedef, #awdef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+#awhelpcontent{
+	 background-color: white;
+	 color:black;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+#awhelpcontent h1{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+}
+#awhelpcontent h5{
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+	margin-bottom:20px;
+}
+#awhelpcontent h2{
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awhelpcontent h4{
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awhelpcontent h3{
+	letter-spacing: 3px;
+	text-indent: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awhelpdef, #awadoptdef, #awstationsdef,#awpetdaydef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+}
+#awname, #awemail{
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-right:10px;
+	width:100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#awhelpformcontent{
+    border-radius: 5px;
+    background-color: white;
+	color:black;
+    padding: 20px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color:#b3b3b3;
+    color: white;
+	cursor: pointer;
+    padding: 14px;
+    margin-top:5px;
+    border: none;
+    border-radius: 4px;  
+}
+input[type=submit]:hover {
+    background-color: #a6a6a6;
+	color:black;
+}
+#awadvocacycontent{
+	 background-color: white;
+	 color:black;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+#awadvocacycontent h1{
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awadvocacycontent h2{
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awadvocacycontent h3{
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awadvocacydef, #awmissiondef, #awvisiondef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+#awaboutcontent{
+	 background-color: white;
+	 color:black;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+#awaboutcontent h1{
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awaboutcontent h2{
+	text-align:center;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#awaboutdef, #awusdef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+}
+#awaboutcontent ul li{
+	font-size: 25px;
+	list-style-type: none;
+	text-align: center;
+}
