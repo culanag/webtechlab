@@ -1,0 +1,371 @@
+
+.awwhole{
+    box-sizing: border-box;
+	
+	
+}
+
+#awnavbar {   
+    background-color: #3c3c3c;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left:0px;
+	display:inline;
+}
+
+header {
+	
+	padding-top:25px;
+}
+
+header h2{
+	
+	padding-top:25px;
+	padding-left:25px;
+	left: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 40px;
+	
+}
+
+
+#awnavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+	display: inline;
+	
+}
+
+#awnavbar a:hover {
+    background-color: #ddd;
+    color: black;
+	font-size: 18px;
+}
+
+a[href*="about"] {
+	float: right !important;
+}
+
+
+.awbox{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+
+.awleft{
+	float: left;
+    width: 59%;	
+}
+
+.awright{
+	float: right;
+    width: 40%;	
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+    padding-left:20px;
+	padding-right: 8px;
+    background: #f1f1f1;
+}
+
+#aw2p1{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+	
+}
+
+
+
+#aw1h, #aw2h, #aw3h, #aw4h, #aw5h, #aw6h{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 30px;
+		
+}
+
+#aw1p, #aw2p2, #aw3p, #aw4p, #aw5p, #aw6p, #aw7p{
+	  text-align: justify;
+	  text-indent: 50px;
+	  font-size: 20px;
+	  letter-spacing: 0.5px;
+	  line-height: 1.5;
+
+	
+}
+
+
+#aw18, #aw2, #aw16, #aw24, #aw8, #aw23, #awpinkhouses{
+	width: 100%;
+}
+
+#awfooter{
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top:15px;
+	background-color: Grey;
+}
+
+
+
+ #aw6, #aw7, #aw9, #aw10, #aw13, #aw14, #aw15, 
+ #gutterdog, #bushcat, #bushdog, #chickencoop,
+ #awtreehouses, #aw21, #aw22, #aw25,#hatdog,
+ #tonguedog, #gatedog, #awhouseshouses,
+ #awcarhouses,#aw17, #tabledog,
+ #aw19,#aw20{
+	column-count: 2;
+	width:49.5%;
+	position:center;
+	border-radius: 3px;
+	
+	
+ }
+
+#aw3, #aw11, #aw17, #paperdog {
+	height:10%;
+	width:99%;
+	position:center;
+	border-radius: 3px;
+}
+
+
+
+
+/*issues.html*/
+
+#awissuescontent{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+
+#awissuescontent h1{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+}
+
+#awissuescontent h2,h5,h6,h3,h4{
+	text-align:left-side;
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#straydef, #awstrdoggy, #awstrkitty, #cruddef, #awissuedef, #awdef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+/*help.html*/
+
+#awhelpcontent{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+
+#awhelpcontent h1{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+}
+
+#awhelpcontent h5{
+	text-align:left-side;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom:25px;
+	margin-bottom:20px;
+}
+
+#awhelpcontent h2,h3,h4{
+	text-align:left-side;
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#awhelpcontent h3{
+	text-align:left-side;
+	text-indent: 5px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#awhelpdef, #awadoptdef, #awstationsdef,#awpetdaydef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+#awname, #awemail{
+	padding: 10px 200px;
+	padding-left:10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	
+}
+
+#awhelpformcontent{
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#b3b3b3;
+    color: white;
+	cursor: pointer;
+    padding: 14px;
+    margin-top:5px;
+    border: none;
+    border-radius: 4px;  
+}
+
+input[type=submit]:hover {
+    background-color: #a6a6a6;
+}
+
+
+
+/*advocacy.html*/
+
+#awadvocacycontent{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+
+#awadvocacycontent h1,h2,h3{
+	text-align:left-side;
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#awadvocacydef, #awmissiondef, #awvisiondef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+
+
+/*about.html*/
+
+#awaboutcontent{
+	 background-color: white;
+     padding: 20px;
+     margin-top: 70px;
+	 border-radius: 10px;
+	 margin-bottom:20px;
+}
+
+#awaboutcontent h1{
+	text-align:left-side;
+	text-indent:5px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#awaboutcontent h2{
+	text-align:center;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#awaboutdef, #awusdef{
+	text-align:justify;
+	text-indent: 50px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+}
+
+#awaboutcontent ul li{
+	font-size: 25px;
+	list-style-type: none;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
