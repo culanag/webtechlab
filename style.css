@@ -1,170 +1,334 @@
-#gg-body {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 0px;
+body {
+    margin:0;
 }
+  a {text-decoration:none;}
+  p {padding-left:10px;}
+  #inclusioncon {
+  	width:100%; 
+  	margin-left:auto; 
+  	margin-right:auto;
+  }
+  #inclusionheader {
+  	background-color:#333;
+  }
+  #inclusionheader h1 {
+  	color:white; 
+  	line-height:80px;
+  	font-family: verdana;
+  }
+  #inclusionheader img {
+  	float:left; 
+  	height:70px; 
+  	width:300px; 
+  	padding:5px; 
+  	margin-right:20px
+  }
+  #inclusioncontent {
+  	margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  	}
 
-@font-face {
-    font-family: Raleway;
-    src: url("../fonts/raleway_thin-webfont.woff")
-}
+  #inclusionfooter {
+  	clear:left; 
+  	background-color:white;
+  }
 
-#gg-face {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    color: darkslategrey;
-    padding: 150px;
-    background-image: url("../img/bg1.jpg");
-    font-family: Raleway, helvetica, arial;
-    text-shadow: 2px 2px darkgray;
-    font-size: 120px; 
-    text-align: center;
-}
-
-#gg-face2 {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    color: azure;
-    padding: 150px;
-    background-image: url("../img/bg2.jpg");
-    font-family: Raleway, helvetica, arial;
-    text-shadow: 2px 2px darkseagreen;
-    font-size: 120px; 
-    text-align: center;
-}
-
-#gg-menu ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: darkslategray;
-    font-family: Arial;
-}
-
-#gg-menu li a {
+  .inclusion-column {
     float: left;
-    text-decoration: none;
-    padding: 16px 24px;
-    color: white;
+    width: 30%;
+    padding: 15px;
 }
-
-#gg-menu li a:hover {
-    color: black;
-    background-color: azure;
-}
-
-#gg-footer {
-    margin: 0px;
-    padding: 1px;
-    background-color: darkslategray;
-    font-family: helvetica, arial;
-    color: white;
-    text-indent: 15px;
-    object-position: bottom;
-}
-
-#gg-good-barangay {
-    margin-top: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-#gg-good-barangay h2 {
-    padding: 0px;
-    color: darkslategray;
-    font-family: Raleway, helvetica, arial;
-    font-size: 250%;
-}
-
-#gg-good-barangay p {
-    color: #63646d;
-    font-family: arial;
+.inclusion-column {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;   
     font-size: 18px;
-    text-indent: 50px;
+}
+.inclusion-column h2{
+    text-shadow: 2px 2px Black;
+}
+#inclusion-nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#gg-content {
-    margin-left: 15%;
-    margin-right: 5%;
+#inclusion-nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.gg-row:after {
+#inclusion-nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Clear floats after the columns */
+#inclusion-row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.gg-characteristics {
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .inclusion-column {
+        width: 100%;
+    }
+}
+
+#inclusionboxes{
+  margin-top:30px;
+}
+
+#inclusionboxes #inclusionbox{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#inclusionboxes #inclusionbox img{
+  width:10%;
+}
+
+#inclusioncontainer{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#inclusionstory img{
+	position: center;
+}
+
+#inclusionsto{
+	text-align: right;
+  	font-family: Verdana;
+  	font-size: 15;
+}
+#inclusionmenu {
+    text-align: center;
+    background-color: White;
+    }
+
+
+.inclusionfader {
+    /* Giving equal sizes to each element */
+    width:    300px;
+    height:   375px;
+    background-color: Black;
+
+    /* Positioning elements in lines */
+    display:  inline-block;
+
+    /* This is necessary for position:absolute to work as desired */
+    position: center;
+
+    /* Preventing zoomed images to grow outside their elements */
+    overflow: hidden; }
+
+
+    .inclusionfader img {
+        /* Stretching the images to fill whole elements */
+        width:       100%;
+        height:      100%;
+
+        /* Preventing blank space below the image */
+        line-height: 0;
+
+        /* A one-second transition was to disturbing for me */
+        -webkit-transition: all 0.3s ease;
+        -moz-transition:    all 0.3s ease;
+        -o-transition:      all 0.3s ease;
+        -ms-transition:     all 0.3s ease;
+        transition:         all 0.3s ease; }
+        .inclusionfader img:hover {
+            /* Making images appear bigger and transparent on mouseover */
+            opacity: 0.5;
+            width:   120%;
+            height:  120%; }
+#inclusion{
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 20%;
+    
+}
+#inclusion h2 {
+    padding: 0px;
+    color: Black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 300%;
+    text-shadow: 2px 2px 5px #283747  ;
+}
+
+#inclusion p {
+    color: Black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-indent: 50px;
+}
+#inclusionview img { 	
+	transition: all 0.2s ease-in;
+	width: 25%;
+}
+#inclusionviewmask { 
+	background-color: rgba(115,146,184, 0.7); 
+	width: 100%;
+   	 padding: 60px;
+	height: 50%;
+	opacity: 0;
+	transform: translate(265px, 145px) rotate(45deg);
+	transition: all 0.2s ease-in-out;
+}
+#inclusionview h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: translate(200px, -200px);
+	transition: all 0.2s ease-in-out;
+}
+#inclusionview p { 
+	transform: translate(-200px, 200px);
+	transition: all 0.2s ease-in-out;
+}
+#inclusionview a.info { 
+    transform: translate(0px, 100px);
+	transition: all 0.2s 0.1s ease-in-out;
+} 
+#inclusionview:hover .mask { 
+	opacity:1; 
+	transform: translate(-80px, -125px) rotate(45deg);
+}							  
+#inclusionview:hover h2 { 
+	transform: translate(0px,0px);
+	transition-delay: 0.3s; 
+}
+#inclusionview:hover p { 
+    transform: translate(0px,0px); 
+	transition-delay: 0.4s;
+}
+#inclusionview:hover a.info { 
+	transform: translate(0px,0px); 
+	transition-delay: 0.5s;
+}
+.view {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
     float: left;
-    width: 33.33%;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: black;
+}
+.view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: Black);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: bold;
+    font-size: 15px;
+    position: relative;
+    color: White;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: Black;
+    color: black;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+#inclusioninput[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#inclusionlabel {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#inclusioninput[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+#inclusioninput[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.#inclusionontain {
+    border-radius: 5px;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
-.gg-characteristics h3 {
-    padding: 0px;
-    color: darkslategray;
-    font-family: Raleway, helvetica, arial;
-    font-size: 200%;
+#inclusioncol-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
 }
 
-.gg-characteristics p {
-    /*color: #63646d;*/
-    color: white;
-    font-family: arial;
-    font-size: 13px;
-    text-indent: 20px;
-    margin: 20px;
+#inclusioncol-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
 }
 
-.gg-container {
-    position: relative;
-    width: 100%;
+/* Clear floats after the columns */
+#inclusionrows:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.gg-topic-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#inclusionst h1{
+	font-family: Verdana;
 }
 
-.gg-overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: darkslategray;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-
-.gg-container:hover .gg-overlay {
-    bottom:0;
-    height: 100%;
-}
-
-.gg-details {
-    position: absolute;
-    overflow: hidden;
-}
-
-#gg-fort {
-    border-radius: 10px;
-    display: block;
-    margin-bottom: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
