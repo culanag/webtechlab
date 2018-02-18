@@ -1,0 +1,333 @@
+body{
+  animation:fadein 2s;
+  background-color: antiquewhite;
+}
+.inclusion-column p{
+  text-indent:100px;
+  text-align:justify;
+}
+.inclusion-column footer{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  background-color:transparent;
+  padding:10px;
+  color:white;
+}
+.inclusion-column ul {
+	color: #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    text-indent: 100px;
+	border-style: dotted;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.inclusion-column  h2 ul li{
+    float:left;	
+    text-align: Center;
+}
+.inclusion-column h2{
+    color: #FA8072;
+}
+.inclusion-column li a{
+	color: #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	border: 5px solid #008000;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+    
+.inclusion-column li a:hover{
+  background-color:#00C852;
+  border-radius:5px;
+  transition: 1s;
+  display: block;
+  padding: 8px;
+    
+}
+
+  .inclusioncon {
+  	width:100%; 
+  	margin-left:auto; 
+  	margin-right:auto;
+  }
+  .inclusionheader {
+  	background-color:#333;
+  }
+  .inclusionheader h1 {
+  	color:white; 
+  	line-height:80px;
+  	font-family: verdana;
+  }
+  .inclusionheader img {
+  	float:left; 
+  	height:70px; 
+  	width:300px; 
+  	padding:5px; 
+  	margin-right:20px
+  }
+  #inclusioncontent {
+  	float:left;
+  	width: 98%;
+	color:  #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	border: 5px solid  #CD5C5C;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+ }
+
+  #inclusionfooter { 
+  	background-color:  #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	border: 5px solid #008000;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+	
+	
+  }
+
+  #inclusion-column {
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+
+}
+#inclusion-nav{
+	text-align: center;
+	overflow: hidden;
+	height: 50px;
+	width: 100%;
+	position:fixed;
+	font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+	background-color: #FA8072;
+}
+
+#inclusion-nav a:hover{
+	display: inline;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	opacity: 0.5;
+	border: 1px solid  #FA8072;
+}
+
+@media (max-width:600px) {
+    #inclusion-column {
+        width: 100%;
+    }
+}
+
+#inclusionboxes{
+  margin-top:30px;
+}
+
+#inclusionboxes #inclusionbox{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#inclusionboxes #inclusionbox img{
+  width:10%;
+}
+
+
+#inclusioncontainer{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#inclusionstory img{
+	text-align: right;
+	height: 250px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.inclusionstory{
+	text-align: right;
+  	font-family: Verdana;
+  	font-size: 15px;
+}
+
+.inclusionfader img {
+	width:  240px;
+    height: 200px;
+	text-align: center;
+    margin: 5px;
+    border: 5px solid #FA8072;
+    float: left;
+
+}
+
+.inclusionfader img {
+        width:       240px;
+        height:      200px;
+        line-height: 0;
+
+        transition:         all 0.3s ease; }
+        .inclusionfader img:hover {
+            opacity: 1.0;
+            width:   150px;
+            height:  150px; 
+}
+
+#inclusion h2 {
+    padding: 30px;
+    color: #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 75px;
+}
+
+#inclusion p {
+    color: #CD5C5C;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    text-indent: 100px;
+    border-color: white;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.inclusion h2 {
+    padding: 30px;
+    color: #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+}
+
+.inclusion p {
+    color: #FA8072;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	border-style: dotted;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+ img { 	
+	transition: all 0.2s ease-in;
+	width: 25%;
+    border-radius: 70%;
+     text-align: center;
+}
+
+#inclusionviewmask { 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	border: 5px solid #008000;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+#inclusionview h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: translate(200px, -200px);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#inclusionview p { 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-indent: 100px;
+	text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+#inclusionview a.info { 
+    transform: translate(0px, 100px);
+	transition: all 0.2s 0.1s ease-in-out;
+} 
+#inclusionview:hover .mask { 
+	opacity:1; 
+	transform: translate(-80px, -125px) rotate(45deg);
+}							  
+#inclusionview:hover h2 { 
+	transform: translate(0px,0px);
+	transition-delay: 0.3s; 
+}
+#inclusionview:hover p { 
+    transform: translate(0px,0px); 
+	transition-delay: 0.4s;
+}
+#inclusionview:hover a.info { 
+	transform: translate(0px,0px); 
+	transition-delay: 0.5s;
+}
+
+#inclusioninput[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#inclusionlabel {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#inclusioninput[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+#inclusioninput[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#inclusioncontain {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#inclusioncol-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+#inclusioncol-75 {
+    width: 50px;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+#inclusionrows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#inclusionst h1{
+	font-family: Verdana;
+	
+}
+
+section article h2{
+	text-align: center;
+}
